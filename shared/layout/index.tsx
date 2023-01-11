@@ -96,27 +96,17 @@ const Layout: React.FunctionComponent<Props> = ({children}) => {
           <Link href="/">CryptoMaker App</Link>
         </div>
         <div className="flex justify-start sm:justify-center mb-2">
-          Developer:{" "}
-          <a
-            href="https://www.linkedin.com/in/rafael-contreras-pimentel-8b0b67203"
-            className="text-yellow-500 ml-4"
-            target="_blank"
-          >
-            rcontre360.io
-          </a>
-        </div>
-        <div className="flex justify-start sm:justify-center mb-2">
           <Link href="/create">Create Token!</Link>
         </div>
         <div className="flex justify-start sm:justify-center mb-2">
-          <a href="https://t.me/Rcontre360" target="_blank">
+          <a href="" target="_blank">
             <Telegram />
           </a>
-          <a href="https://github.com/Rcontre360" target="_blank">
+          <a href="" target="_blank">
             <GitHub className="mx-12" />
           </a>
           <a
-            href="https://www.linkedin.com/in/rafael-contreras-pimentel-8b0b67203"
+            href=""
             target="_blank"
           >
             <LinkedIn />
