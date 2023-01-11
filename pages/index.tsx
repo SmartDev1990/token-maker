@@ -59,10 +59,6 @@ const Landing: React.FunctionComponent<Props> = (props) => {
           "bg-gradient-to-r from-one to-three"
         )}
       >
-        <img
-          src={"/background.jpg"}
-          className="absolute center opacity-20"
-        />
         <div className="relative w-full h-screen flex justify-between max-w-6xl items-center">
           <div className="max-w-md align-left flex flex-col fixed top-25">
             <h1 className="sm:text-5xl text-4xl font-bold text-white text-left leading-snug">
